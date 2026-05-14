@@ -54,8 +54,6 @@ function Links({
     <>
       <Link href="/docs" text="Docs" number={1} printNumber={numbers} />
       <Link href="/examples" text="Examples" number={2} printNumber={numbers} />
-      <Link href="/" text="Donate 💸" number={3} printNumber={numbers} />{" "}
-      {/* to be added */}
       <div className="w-[1px] bg-text-tertiary opacity-30"></div>
       <a
         href="https://github.com/dilpreetsinghaulakh/mockup"

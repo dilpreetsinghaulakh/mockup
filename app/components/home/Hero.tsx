@@ -7,14 +7,14 @@ const fontSpl = localFont({
 
 export default function Hero() {
   return (
-    <main className="flex flex-col items-center px-8 sm:py-16 py-8 justify-between w-full h-[80vh]">
+    <main className="grid min-h-[calc(100svh-6rem)] w-full grid-rows-[auto_1fr_auto] justify-items-center px-8 py-8 sm:py-16">
       <p className="font-mono text-sm text-text-secondary bg-background-secondary px-4 py-1 rounded-full shadow-lg dark:border border-text-tertiary/10">
         version{" "}
         <span className="font-bold text-text-primary">
           {packageJson.version}
         </span>
       </p>
-      <div>
+      <div className="flex w-full flex-col items-center justify-center self-center py-8">
         <h1
           className={`text-5xl font-bold sm:text-center ${fontSpl.className}`}
         >
